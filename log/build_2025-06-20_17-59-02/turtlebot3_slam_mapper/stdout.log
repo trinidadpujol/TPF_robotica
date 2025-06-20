@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info
+writing ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+copying turtlebot3_slam_mapper/__init__.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+copying turtlebot3_slam_mapper/python_slam_node.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+running install
+running install_lib
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper
+copying /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper/__init__.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper
+copying /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper/python_slam_node.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper
+byte-compiling /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper/python_slam_node.py to python_slam_node.cpython-310.pyc
+running install_data
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index/packages
+copying resource/turtlebot3_slam_mapper -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index/packages
+copying package.xml -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/launch
+copying launch/python_slam_maze.launch.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/launch
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/rviz
+copying rviz/slam_maze.rviz -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/rviz
+creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/config
+copying config/slam_toolbox_params.yaml -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/config
+running install_egg_info
+Copying ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info to /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper-0.0.0-py3.10.egg-info
+running install_scripts
+Installing python_slam_node script to /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/turtlebot3_slam_mapper
+writing list of installed files to '/home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/install.log'

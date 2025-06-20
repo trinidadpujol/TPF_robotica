@@ -34,11 +34,10 @@ def generate_launch_description():
     y_pose = LaunchConfiguration('y_pose', default='0.0')
     yaw = LaunchConfiguration('yaw', default='-1.57079632679')  # pi/2 clockwise
 
-    world = os.path.join(
-        get_package_share_directory('turtlebot3_gazebo'),
-        'worlds',
-        'turtlebot3_maze.world'
-    )
+    # Obtener la ruta del archivo world de forma portable
+    # Asumiendo que este launch file está en archivos/ y el world también
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    world = os.path.join(current_dir, 'turtlebot3_maze.world')
 
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(

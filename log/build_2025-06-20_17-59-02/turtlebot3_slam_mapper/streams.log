@@ -1,0 +1,43 @@
+[0.870s] Invoking command in '/home/agustin/Documentos/4to/robotica/TPF_robotica/archivos/turtlebot3_slam_mapper': PYTHONPATH=/home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_slam_mapper build --build-base /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build install --record /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/install.log --single-version-externally-managed install_data
+[1.222s] running egg_info
+[1.223s] creating ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info
+[1.223s] writing ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/PKG-INFO
+[1.224s] writing dependency_links to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/dependency_links.txt
+[1.224s] writing entry points to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/entry_points.txt
+[1.224s] writing requirements to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/requires.txt
+[1.224s] writing top-level names to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/top_level.txt
+[1.224s] writing manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+[1.227s] reading manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+[1.228s] writing manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+[1.228s] running build
+[1.228s] running build_py
+[1.228s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build
+[1.228s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib
+[1.228s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+[1.228s] copying turtlebot3_slam_mapper/__init__.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+[1.229s] copying turtlebot3_slam_mapper/python_slam_node.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+[1.229s] running install
+[1.229s] running install_lib
+[1.231s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper
+[1.231s] copying /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper/__init__.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper
+[1.231s] copying /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper/python_slam_node.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper
+[1.232s] byte-compiling /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper/__init__.py to __init__.cpython-310.pyc
+[1.232s] byte-compiling /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper/python_slam_node.py to python_slam_node.cpython-310.pyc
+[1.235s] running install_data
+[1.236s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index
+[1.236s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index
+[1.236s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index/packages
+[1.236s] copying resource/turtlebot3_slam_mapper -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index/packages
+[1.236s] copying package.xml -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper
+[1.236s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/launch
+[1.236s] copying launch/python_slam_maze.launch.py -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/launch
+[1.237s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/rviz
+[1.237s] copying rviz/slam_maze.rviz -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/rviz
+[1.238s] creating /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/config
+[1.238s] copying config/slam_toolbox_params.yaml -> /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/config
+[1.238s] running install_egg_info
+[1.240s] Copying ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info to /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages/turtlebot3_slam_mapper-0.0.0-py3.10.egg-info
+[1.241s] running install_scripts
+[1.268s] Installing python_slam_node script to /home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/turtlebot3_slam_mapper
+[1.268s] writing list of installed files to '/home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/install.log'
+[1.302s] Invoked command in '/home/agustin/Documentos/4to/robotica/TPF_robotica/archivos/turtlebot3_slam_mapper' returned '0': PYTHONPATH=/home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agustin/Documentos/4to/robotica/TPF_robotica/install/turtlebot3_slam_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_slam_mapper build --build-base /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/build install --record /home/agustin/Documentos/4to/robotica/TPF_robotica/build/turtlebot3_slam_mapper/install.log --single-version-externally-managed install_data
